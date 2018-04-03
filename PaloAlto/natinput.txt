@@ -1,0 +1,3 @@
+#1.Nat Rule Name,2.Description,3.Source Zone,4.Dest Zone,5.Service Type,6.Source IP,7.Dest IP,8.Type of Source Translation,9.Interface Port Number
+StaticNat,StaticNatDMZ,L3-Untrust,any,any,any,any,dynamic-ip-and-port,ethernet1/4
+R3,,untrust,untrust,any,any,NAT-IP-172.16.1.1,none,any
